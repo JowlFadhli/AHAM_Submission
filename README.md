@@ -23,7 +23,7 @@ Fund details will be stored as a list temporarily and API endpoints are assigned
 - `PUT /funds/<fund_id>`: Updates the performance of a specific fund using JSON input.
 - `DELETE /funds/<fund_id>`: Deletes a fund with the given ID.
 
-In TASK 5, the approach used is using SQLite3 library to convert created database (.db file) as jsonn without creating unnecessary output json file.
+In TASK 5, the approach used is using SQLite3 library to convert created database (.db file) as json without creating unnecessary output json file.
 
 #### Database Details
 1. funds.db
