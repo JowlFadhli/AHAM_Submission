@@ -38,7 +38,9 @@ In the 'AHAM.py', fund details will be stored as a list temporarily and API endp
 
 ##### Guidelines: Accessing via Postman. !! Make sure the Flask server is running !!
 1. For API testing, execute HTTP response by choosing the endpoints accordingly.
-    HTTP Request
+
+HTTP Request
+
     ![Postman Interface](image.png). 
 
 2. For POST:
