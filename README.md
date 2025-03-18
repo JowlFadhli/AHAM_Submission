@@ -50,11 +50,11 @@ Write test cases to ensure the proper functioning of both the API endpoints and 
 
 Body Output-----------------------------------------------------------------------------
 
-![Body](Gallery\image.png) 
+![Body](image.png) 
 
 Postman Testing-------------------------------------------------------------------------
 
-![alt text](Gallery\image-1.png)
+![alt text](image-1.png)
 
 
 ###### POST
@@ -67,7 +67,7 @@ Postman Testing-----------------------------------------------------------------
 - Go to the Body tab and choose raw, then set the content type to JSON.
 - This JSON data sample is added:
 
-![alt text](Gallery\image-2.png)
+![alt text](image-2.png)
 
 2. Expected Result:
 - Status code: 200 OK.
@@ -77,11 +77,11 @@ Postman Testing-----------------------------------------------------------------
 
 Body Output-----------------------------------------------------------------------------
 
-![alt text](Gallery\image-3.png)
+![alt text](image-3.png)
 
 Postman Testing-------------------------------------------------------------------------
 
-![alt text](Gallery\image-4.png)
+![alt text](image-4.png)
 
 
 ###### DELETE
@@ -101,11 +101,11 @@ Postman Testing-----------------------------------------------------------------
 
 Body Output-----------------------------------------------------------------------------
 
-![alt text](Gallery\image-5.png)
+![alt text](image-5.png)
 
 Postman Testing-------------------------------------------------------------------------
 
-![alt text](Gallery\image-6.png)
+![alt text](image-6.png)
 
 ##### Edge Cases
 
@@ -114,30 +114,30 @@ Here, empty string of fund name and no performance is given.
 
 Body Output-----------------------------------------------------------------------------
 
-![alt text](Gallery\image-7.png)
+![alt text](image-7.png)
 
 Postman Testing-------------------------------------------------------------------------
 
-![alt text](Gallery\image-8.png)
+![alt text](image-8.png)
 
 2. Non-existing records. 
 
 Body Output-----------------------------------------------------------------------------
 
-![alt text](Gallery\image-9.png)
+![alt text](image-9.png)
 
 Postman Testing-------------------------------------------------------------------------
 
-![alt text](Gallery\image-10.png)
+![alt text](image-10.png)
 
 3. Duplicate. 
 Using POST method, similar id is tested.
 
 Body Output-----------------------------------------------------------------------------
 
-![alt text](Gallery\image-11.png)
+![alt text](image-11.png)
 
 Postman Testing-------------------------------------------------------------------------
 
-![alt text](Gallery\image-12.png)
+![alt text](image-12.png)
 
