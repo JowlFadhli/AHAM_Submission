@@ -35,19 +35,21 @@ Write test cases to ensure the proper functioning of both the API endpoints and 
 
 ###### Endpoints Validation
 1. GET /funds
-Steps:
-- Create a new request in your collection.
-- Set the request type to GET.
-- Set the URL to: http://127.0.0.1:5000/funds.
-- Click Send to test the endpoint.
 
-Expected Result:
-- Status code: 200 OK.
-- Response body: A JSON array of fund data (e.g., id, fund_name, and performance).
+    Steps:
+    - Create a new request in your collection.
+    - Set the request type to GET.
+    - Set the URL to: http://127.0.0.1:5000/funds.
+    - Click Send to test the endpoint.
 
-Validated sample:
+    Expected Result:
+    - Status code: 200 OK.
+    - Response body: A JSON array of fund data (e.g., id, fund_name, and performance).
 
-![alt text](image.png)
+    Validated sample:
 
+    ![alt text](image.png)
+
+2. 
 
 
