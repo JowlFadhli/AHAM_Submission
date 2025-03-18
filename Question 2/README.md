@@ -3,11 +3,17 @@
 ## Question:
 
 Create a RESTful API to manage investment funds. The API should have the following endpoints
+
 - Endpoint to retrieve a list of all funds
+
 - Endpoint to create a new fund
+
 - Endpoint to retrieve details of a specific fund using its ID
+
 - Endpoint to update the performance of a fund using its ID
+
 - Endpoint to delete a fund using its ID
+
 
 
 ## Answer:
