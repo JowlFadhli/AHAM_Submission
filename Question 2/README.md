@@ -41,7 +41,7 @@ In the 'AHAM.py', fund details will be stored as a list temporarily and API endp
 
 HTTP Request
 
-    ![Postman Interface](image.png). 
+![Postman Interface](image.png). 
 
 2. For POST:
     
