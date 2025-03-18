@@ -1,10 +1,44 @@
-# AFFIN HWANG ASSET MANAGEMENT TAKEAWAY TEST
+# AFFIN HWANG ASSET MANAGEMENT TAKEAWAY TEST: Documentation
 
 ## Objectives:
-The purpose of this assessment is to evaluate the candidate's proficiency as a backend developer with a focus on Python and their understanding of building and working with RESTful APIs. The assessment aims to assess the candidate's ability to design, develop, and maintain scalable and efficient backend solutions for a fund management company.
+Provides an interface to manage investment funds and their data stored in the database. Users can perform CRUD (Create, Read, Update, Delete) operations on funds.
+
+#### Basic Requirements
+- Python 3.x
+- SQLite
+- Flask
+- Postman software. Available to download here: [Postman Download Website](https://learning.postman.com/docs/getting-started/installation/installation-and-updates/#install-postman-on-windows)
 
 ### Task Breakdown
 To properly visualized and documented the steps taken to answer the questions, the tasks are breakdown individually according to the folder from Task 1- 5. As for Task 6, 7 and 8 (with reference to Task 3,4 and 5), the code used are named as FlaskApp.py to provide comprehensive progress of the updated application.
+
+#### Task 1-5
+
+Summary:
+Fund details will be stored as a list temporarily and API endpoints are assigned accordingly with proper error handling using HTTP response codes such as 200 for successful process, 404 for fund not found, 201 for fund created. Below are the endpoints created:
+
+- `GET /funds`: Retrieves all available funds as a JSON list.
+- `POST /funds`: Creates a new fund by accepting JSON input (e.g., fund details).
+- `GET /funds/<fund_id>`: Fetches the details of a specific fund using its unique ID.
+- `PUT /funds/<fund_id>`: Updates the performance of a specific fund using JSON input.
+- `DELETE /funds/<fund_id>`: Deletes a fund with the given ID.
+
+In TASK 5, the approach used is using SQLite3 library to convert created database (.db file) as jsonn without creating unnecessary output json file.
+
+#### Database Details
+1. funds.db
+
+| id       | fund_name | Performance |
+|----------|---------- |------------ |
+| Value 1  | Value 2   | Value 3     |
+| Value 4  | Value 5   | Value 6     |
+
+2. investment_funds.db
+
+| id       | fund_name | fund_type   | created_date | total_assets |
+|----------|---------- |------------ |--------------|--------------|
+| Value 1  | Value 2   | Value 3     | Value 4      | Value 5      | 
+
 
 #### Task 6: Error Handling.
 Implement appropriate error handling mechanisms for the API to handle scenarios like invalid input, missing resources, etc.
@@ -50,7 +84,7 @@ Write test cases to ensure the proper functioning of both the API endpoints and 
 
 Body Output-----------------------------------------------------------------------------
 
-![Body](image.png) 
+![Body](valimage.png) 
 
 Postman Testing-------------------------------------------------------------------------
 
