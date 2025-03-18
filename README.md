@@ -47,8 +47,7 @@ Expected Result:
 - Response body: A JSON array of fund data (e.g., id, fund_name, and performance).
 
 Validated sample:
-
-![alt text](image.png)
+![alt text](image.png) 
 
 2.
 
