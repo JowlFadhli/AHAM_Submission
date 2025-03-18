@@ -37,22 +37,39 @@ In the 'AHAM.py', fund details will be stored as a list temporarily and API endp
 4. Open your installed Postman software.
 
 ##### Guidelines: Accessing via Postman. !! Make sure the Flask server is running !!
-1. For API testing, execute HTTP response by choosing the endpoints accordingly. ![Postman Interface](image.png)
+1. For API testing, execute HTTP response by choosing the endpoints accordingly.
+    HTTP Request
+    ![Postman Interface](image.png). 
+
 2. For POST:
+    
     i.   Create a new request.
+    
     ii.  Select POST as the HTTP method.
+    
     iii. Enter the URL http://127.0.0.1:5000/funds.
+    
     iv.  Go to the Body tab in Postman and select raw format.
+    
     v.   Paste the JSON body of the new fund.
+    
     vi.  Set the header Content-Type to application/json.
+    
     vii. Click Send to create the fund.
 3. For PUT (update):
+    
     i.   Create a new request.
+    
     ii.  Select PUT as the HTTP method.
+    
     iii. Enter the URL with the fund ID. Example: http://127.0.0.1:5000/funds/223
+    
     iv.  Go to the Body tab and select raw format.
+    
     v.   Paste the JSON body of the updated field.
+    
     vi.  Set the header Content-Type to application/json.
+    
     vii. Click Send to update the fund.
 4. For DEL and GET, just simply specify the URL with the fund ID similar to PUT (don't specify fund ID if to retrieve all)
 
