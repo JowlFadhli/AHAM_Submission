@@ -3,11 +3,11 @@
 ## Question:
 
 Create a RESTful API to manage investment funds. The API should have the following endpoints
-o Endpoint to retrieve a list of all funds
-o Endpoint to create a new fund
-o Endpoint to retrieve details of a specific fund using its ID
-o Endpoint to update the performance of a fund using its ID
-o Endpoint to delete a fund using its ID
+- Endpoint to retrieve a list of all funds
+- Endpoint to create a new fund
+- Endpoint to retrieve details of a specific fund using its ID
+- Endpoint to update the performance of a fund using its ID
+- Endpoint to delete a fund using its ID
 
 
 ## Answer:
@@ -45,32 +45,32 @@ HTTP Request
 
 2. For POST:
     
-    i.   Create a new request.
+    * i.   Create a new request.
     
-    ii.  Select POST as the HTTP method.
+    * ii.  Select POST as the HTTP method.
     
-    iii. Enter the URL http://127.0.0.1:5000/funds.
+    * iii. Enter the URL http://127.0.0.1:5000/funds.
     
-    iv.  Go to the Body tab in Postman and select raw format.
+    * iv.  Go to the Body tab in Postman and select raw format.
     
-    v.   Paste the JSON body of the new fund.
+    * v.   Paste the JSON body of the new fund.
     
-    vi.  Set the header Content-Type to application/json.
+    * vi.  Set the header Content-Type to application/json.
     
-    vii. Click Send to create the fund.
+    * vii. Click Send to create the fund.
 3. For PUT (update):
     
-    i.   Create a new request.
+    * i.   Create a new request.
     
-    ii.  Select PUT as the HTTP method.
+    * ii.  Select PUT as the HTTP method.
     
-    iii. Enter the URL with the fund ID. Example: http://127.0.0.1:5000/funds/223
+    * iii. Enter the URL with the fund ID. Example: http://127.0.0.1:5000/funds/223
     
-    iv.  Go to the Body tab and select raw format.
+    * iv.  Go to the Body tab and select raw format.
     
-    v.   Paste the JSON body of the updated field.
+    * v.   Paste the JSON body of the updated field.
     
-    vi.  Set the header Content-Type to application/json.
+    * vi.  Set the header Content-Type to application/json.
     
     vii. Click Send to update the fund.
 4. For DEL and GET, just simply specify the URL with the fund ID similar to PUT (don't specify fund ID if to retrieve all)
