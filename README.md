@@ -33,22 +33,55 @@ Write test cases to ensure the proper functioning of both the API endpoints and 
 2. Create new collection in Postman for better project overview
 3. Add individual request for each testing
 
-###### Endpoints Validation
-1. GET /funds
+##### Endpoints Validation
+###### GET
 
-Steps:
-- Create a new request in your collection.
+1. Steps:
+- Create a new request in the collection.
 - Set the request type to GET.
 - Set the URL to: http://127.0.0.1:5000/funds.
 - Click Send to test the endpoint.
 
-Expected Result:
+2. Expected Result:
 - Status code: 200 OK.
 - Response body: A JSON array of fund data (e.g., id, fund_name, and performance).
 
-Validated sample:
-![alt text](image.png) 
+3. Validated sample:
 
-2.
+Body Output-----------------------------------------------------------------------------
+
+![Body](image.png) 
+
+Postman Testing-------------------------------------------------------------------------
+
+![alt text](image-1.png)
 
 
+##### POST
+
+
+1. Steps:
+- Create a new request in the collection.
+- Set the request type to POST.
+- Set the URL to: http://127.0.0.1:5000/funds/add.
+- Go to the Body tab and choose raw, then set the content type to JSON.
+- This JSON data sample is added:
+
+![alt text](image-2.png)
+
+2. Expected Result:
+- Status code: 200 OK.
+- Response body: A JSON array of fund data (e.g., id, fund_name, and performance).
+
+3. Validated Sample:
+
+Body Output-----------------------------------------------------------------------------
+
+![alt text](image-3.png)
+
+Postman Testing-------------------------------------------------------------------------
+
+![alt text](image-4.png)
+
+
+##### DELETE
