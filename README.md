@@ -39,7 +39,7 @@ Write test cases to ensure the proper functioning of both the API endpoints and 
 1. Steps:
 - Create a new request in the collection.
 - Set the request type to GET.
-- Set the URL to: http://127.0.0.1:5000/funds.
+- Set the URL to: http://127.0.0.1:5000/funds. If to specify certain fund use: http://127.0.0.1:5000/funds/id
 - Click Send to test the endpoint.
 
 2. Expected Result:
@@ -57,7 +57,7 @@ Postman Testing-----------------------------------------------------------------
 ![alt text](image-1.png)
 
 
-##### POST
+###### POST
 
 
 1. Steps:
@@ -84,4 +84,60 @@ Postman Testing-----------------------------------------------------------------
 ![alt text](image-4.png)
 
 
-##### DELETE
+###### DELETE
+
+1. Steps:
+- Create a new request in the collection.
+- Set the request type to DELETE.
+- Set the URL to: http://127.0.0.1:5000/funds/delete/15 as the newly added fund have a id of 15.
+- Click Send to test the endpoint.
+
+2. Expected Result:
+- Status code: 200 OK (if the fund exists).
+- Status code: 404 Not Found (if the fund does not exist).
+- Response body: A success or error message.
+
+3. Validation Sample:
+
+Body Output-----------------------------------------------------------------------------
+
+![alt text](image-5.png)
+
+Postman Testing-------------------------------------------------------------------------
+
+![alt text](image-6.png)
+
+##### Edge Cases
+
+1. Providing missing inputs to POST method. 
+Here, empty string of fund name and no performance is given.
+
+Body Output-----------------------------------------------------------------------------
+
+![alt text](image-7.png)
+
+Postman Testing-------------------------------------------------------------------------
+
+![alt text](image-8.png)
+
+2. Non-existing records. 
+
+Body Output-----------------------------------------------------------------------------
+
+![alt text](image-9.png)
+
+Postman Testing-------------------------------------------------------------------------
+
+![alt text](image-10.png)
+
+3. Duplicate. 
+Using POST method, similar id is tested.
+
+Body Output-----------------------------------------------------------------------------
+
+![alt text](image-11.png)
+
+Postman Testing-------------------------------------------------------------------------
+
+![alt text](image-12.png)
+
